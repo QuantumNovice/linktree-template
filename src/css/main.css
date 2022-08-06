@@ -1,0 +1,104 @@
+body {
+    background-image:   url('../assets/bg.jpg');
+    background-size: auto, 100%;   
+    background-repeat:  no-repeat;
+    font-family: "Ubuntu", sans-serif;
+    background-color: black;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.rcentered{
+    -webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
+}
+
+.hero {
+    color: aliceblue;
+    font-size: 5vh;
+    text-align: center;
+
+}
+
+.icon{
+    margin: 1vw;
+    font-size:48px;
+    color:white;
+}
+
+.icon:hover{
+    transform: scale(1.5);
+    transition: all .5s;
+}
+
+.arrow{
+    font-size:48px;
+    color:white;
+    text-align: center; 
+}
+
+.arrow:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+    color:rgb(0, 117, 252);
+}
+
+
+.grid-container{
+    display: flex;
+}
+
+
+.grid-item {
+    color:aliceblue;   
+}
+  
+.box{
+    display:flex;
+
+}
+
+.box-item{
+    display:flex;
+    text-align: center;
+
+}
+
+.second-page{
+    background-color: red;
+    width: 100%;
+    height: 70vh;
+
+    margin-top: 100%;
+    margin-bottom: 10%;
+
+    position: absolute;
+    left:-100px;
+}
+
+.second-page:active{
+    background-color: aqua;
+}
+
+@media screen and (max-width: 600px){
+    .hero{
+        font-size: 4vh;
+    }
+}
+
